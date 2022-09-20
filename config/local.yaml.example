@@ -1,0 +1,21 @@
+platform:
+  address: tcp://39.108.103.2:10006
+local:
+  id: "08766902"
+  language: nodejs
+  debug_mode: false
+  timeout_sec: 30
+  organization_uuid: 4FmUcdiR
+  team_uuid: 7FccMcVf
+  web_service_port: "3000"
+  web_service_ip: ""
+  user_uuid: UjijyYUY
+  token: cMCjw1VsQDlQ3PPt7udjU6f0m4NbDoToFrxth76IVSOkjHyn0uDqX19Xcnyo5Pi0
+  log_in_local: false
+  file_in_local: false
+  mysql_in_local: false
+  mysql_user_name: ""
+  mysql_user_password: ""
+  mysql_database_name: ""
+  mysql_host: ""
+  mysql_port: ""

@@ -1,0 +1,13 @@
+{
+  "name": "node_plugin_demo1",
+  "version": "1.0.0",
+  "description": "插件demo",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd backend && npm i && cd ../web && npm i",
+    "build": "cd backend && npm run build && cd ../web && npm run build",
+    "start": "npm run build && node ./backend/node_modules/@ones-op/node-host/dist/index.js --conf_path=config/local.yaml --tags=local --function=run"
+  },
+  "author": "",
+  "license": "ISC"
+}

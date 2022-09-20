@@ -1,0 +1,23 @@
+service:
+  app_id: gNHFadeI
+  name: nodejs-plugin-example
+  version: 1.0.0
+  description: 描述
+  mode: org
+  logo: ""
+  language: nodejs
+  language_version: 16.13.0
+  host_version: 1.0.4
+  host_sub_version: 1.0.0
+  min_system_version: 3.5.0
+apis:
+- function: hello
+  methods:
+  - POST
+  type: addition
+  url: /hello
+modules:
+- entry: modules/ones-global-button-trigger-wKG8/index.html
+  id: ones-global-button-trigger-wKG8
+  moduleType: ones:global:button:trigger
+  title: test
