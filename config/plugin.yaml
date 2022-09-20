@@ -17,7 +17,7 @@ apis:
   type: addition
   url: /hello
 modules:
-- entry: modules/modal-wKG8/index.html
-  id: modal-wKG8
+- entry: modules/ones-global-modal-wKG8/index.html
+  id: ones-global-modal-wKG8
   moduleType: ones:global:modal
   title: test
