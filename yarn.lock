@@ -2,6 +2,90 @@
 # yarn lockfile v1
 
 
-"micro-frontends@file:../../../../../opt/homebrew/Cellar/nvm/0.39.0/versions/node/v16.13.0/lib/node_modules/micro-frontends":
-  "resolved" "file:../../../../../opt/homebrew/Cellar/nvm/0.39.0/versions/node/v16.13.0/lib/node_modules/micro-frontends"
-  "version" "0.0.1"
+"@ones-mf/bridge@file:../micro-frontends/packages/bridge":
+  "resolved" "file:../micro-frontends/packages/bridge"
+  "version" "0.28.0-rc.3"
+  dependencies:
+    "@babel/runtime-corejs3" "~7.16.8"
+    "@ones-mf/core" "^0.14.2-rc.1"
+    "@ones-mf/locale" "^0.3.0-rc.1"
+    "@ones-mf/store" "^0.2.5-rc.1"
+    "@ones-op/event" "^0.6.3-rc.1"
+    "@ones-op/utils" "^0.14.0-rc.2"
+    "@ones/fetch" "^0.1.5"
+    "@ones/utils" "^0.1.2"
+    "@types/lodash-es" "^4.17.6"
+    "@types/react" "^17.0.45"
+    "lodash-es" "~4.17.21"
+
+"@ones-mf/core@file:../micro-frontends/packages/core":
+  "resolved" "file:../micro-frontends/packages/core"
+  "version" "0.14.2-rc.1"
+  dependencies:
+    "@babel/runtime-corejs3" "~7.16.8"
+    "@types/lodash-es" "^4.17.6"
+    "@types/react" "^17.0.45"
+    "lodash-es" "~4.17.21"
+
+"@ones-mf/fetch@file:../micro-frontends/packages/fetch":
+  "resolved" "file:../micro-frontends/packages/fetch"
+  "version" "0.4.0-rc.1"
+  dependencies:
+    "@babel/runtime-corejs3" "~7.16.8"
+    "@ones/fetch" "^0.1.5"
+
+"@ones-mf/locale@file:../micro-frontends/packages/locale":
+  "resolved" "file:../micro-frontends/packages/locale"
+  "version" "0.3.0-rc.1"
+  dependencies:
+    "@babel/runtime-corejs3" "~7.16.8"
+
+"@ones-mf/store@file:../micro-frontends/packages/store":
+  "resolved" "file:../micro-frontends/packages/store"
+  "version" "0.2.5-rc.1"
+  dependencies:
+    "@types/lodash-es" "^4.17.6"
+    "lodash-es" "~4.17.21"
+    "redux" "~4.1.2"
+    "ts-invariant" "~0.9.4"
+
+"@ones-op/event@file:../micro-frontends/packages/op-event":
+  "resolved" "file:../micro-frontends/packages/op-event"
+  "version" "0.6.3-rc.1"
+  dependencies:
+    "@babel/runtime-corejs3" "~7.16.8"
+
+"@ones-op/fetch@file:../micro-frontends/packages/op-fetch":
+  "resolved" "file:../micro-frontends/packages/op-fetch"
+  "version" "0.4.0-rc.1"
+  dependencies:
+    "@babel/runtime-corejs3" "~7.16.8"
+    "@ones/fetch" "^0.1.5"
+
+"@ones-op/router@file:../micro-frontends/packages/op-router":
+  "resolved" "file:../micro-frontends/packages/op-router"
+  "version" "0.6.0-rc.3"
+  dependencies:
+    "@babel/runtime-corejs3" "~7.16.8"
+    "@ones-mf/bridge" "^0.28.0-rc.3"
+    "@ones-op/store" "^0.3.0-rc.2"
+    "@types/react" "^17.0.45"
+    "history" "~5.2.0"
+    "react-router-dom" "~6.2.2"
+
+"@ones-op/store@file:../micro-frontends/packages/op-store":
+  "resolved" "file:../micro-frontends/packages/op-store"
+  "version" "0.3.0-rc.2"
+  dependencies:
+    "@ones-op/utils" "^0.14.0-rc.2"
+    "@types/lodash-es" "^4.17.6"
+    "lodash-es" "~4.17.21"
+    "redux" "~4.1.2"
+
+"@ones-op/utils@file:../micro-frontends/packages/op-utils":
+  "resolved" "file:../micro-frontends/packages/op-utils"
+  "version" "0.14.0-rc.2"
+  dependencies:
+    "@babel/runtime-corejs3" "~7.16.8"
+    "@types/lodash-es" "^4.17.6"
+    "lodash-es" "~4.17.21"

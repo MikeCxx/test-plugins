@@ -1,6 +1,6 @@
 service:
   app_id: gNHFadeI
-  name: nodejs-plugin-example
+  name: test
   version: 1.0.0
   description: 描述
   mode: org
@@ -20,4 +20,10 @@ modules:
 - entry: modules/ones-global-modal-wKG8/index.html
   id: ones-global-modal-wKG8
   moduleType: ones:global:modal
-  title: test
+  title: test1
+  icon: Add
+- entry: modules/ones-global-modal-wKG9/index.html
+  id: ones-global-modal-wKG9
+  moduleType: ones:global:modal
+  title: test2
+  icon: Add
