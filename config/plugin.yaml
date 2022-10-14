@@ -1,0 +1,33 @@
+service:
+  app_id: gNHFadeP
+  name: testPlugin
+  version: 1.0.0
+  description: 描述
+  mode: org
+  logo: ""
+  language: nodejs
+  language_version: 16.13.0
+  host_version: 1.0.4
+  host_sub_version: 1.0.0
+  min_system_version: 3.5.0
+apis:
+- function: hello
+  methods:
+  - POST
+  type: addition
+  url: /hello
+modules:
+- entry: modules/ones-global-modal-wKG8/index.html
+  id: ones-global-modal-wKG8
+  moduleType: ones:global:modal
+  title: 测试
+  icon: logo.svg
+  manual: true
+  preload: true
+abilities:
+  - id: QayeaBmz
+    name: 自定义视图快捷操作
+    version: 1.0.0
+    abilityType: LayoutCustomQuickAction
+    relateModule:
+      quickActionMenu: ones-global-modal-wKG8

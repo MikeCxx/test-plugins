@@ -1,0 +1,19 @@
+/* #ones-mf-root {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  background: #ccc;
+  opacity: 0.5;
+}
+
+.modal {
+  height: 300px;
+  width: 300px;
+  background: #fff;
+  margin: auto;
+} */
